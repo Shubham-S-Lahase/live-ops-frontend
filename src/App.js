@@ -1,10 +1,13 @@
-import './App.css';
-
+import "./App.css";
+import Registerform from "./components/Registerform";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <h1>hii</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Registerform />
+      </div>
+    </Router>
   );
 }
 
